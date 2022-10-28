@@ -16,6 +16,11 @@ Here it is the test the software execute when it is run:
     wider_matrix = get_echelon_form(A,b)
     reduced_matrix = reduced_echelon_form(wider_matrix)
     solution = solve_reduce_matrix(reduced_matrix)
+    
+    ## ------------------  Testing unit  ----------------------------- ##
+    
     np.testing.assert_equal(solution, np.array([2 ,3,-1]))
+    
+    
 ```
 Asserting the system has been solved due to the solution of A and b stated in the code snippet is: [2, 3,-1]
