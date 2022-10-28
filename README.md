@@ -18,4 +18,4 @@ Here it is the test the software execute when it is run:
     solution = solve_reduce_matrix(reduced_matrix)
     np.testing.assert_equal(solution, np.array([2 ,3,-1]))
 ```
-Asseting the system has been solved due to the solution of A and b stated in the code snippet is: [2, 3,-1]
+Asserting the system has been solved due to the solution of A and b stated in the code snippet is: [2, 3,-1]
