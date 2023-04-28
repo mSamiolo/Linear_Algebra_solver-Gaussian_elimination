@@ -119,7 +119,9 @@ if __name__ == '__main__':
     wider_matrix = get_echelon_form(A,b)
     reduced_matrix = reduced_echelon_form(wider_matrix)
     solution = solve_reduce_matrix(reduced_matrix)
+    print("Resolving A: \n", A, "\n to respect b: \n", b, "\n It return the solution: \n", solution)
 
     ### --------------------   Testing unit - for system solution  ---------------------- ##
 
     np.testing.assert_equal(solution, np.array([2 ,3,-1]))
+

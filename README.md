@@ -1,8 +1,17 @@
 # System resolutor using the Echelon method
 
-This piece of code resolve a given Ax = b system, following the echelon method. Cloning this script and setting the A and b matrix, it will return the x vector.
+This piece of code resolve a ```Ax = b``` system, following the echelon method. Cloning this script and setting the A and b matrix/vector, it will return the x vector.
+Numpy must be installed to perform the calculations.
 
-## Code snippet
+## Run the code
+
+To run the code:
+
+```sh
+python ./main.py
+```
+
+## Code snippet to indicate where to insert your algebraic system
 Here it is the test the software execute when it is run:
 
 ```python
@@ -21,6 +30,6 @@ Here it is the test the software execute when it is run:
     
     np.testing.assert_equal(solution, np.array([2 ,3,-1]))
     
-    
-```
+    ```
+
 Asserting the system has been solved due to the solution of A and b stated in the code snippet is: [2, 3,-1]
